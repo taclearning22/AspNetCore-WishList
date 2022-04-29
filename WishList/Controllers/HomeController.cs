@@ -5,11 +5,11 @@ namespace WishList.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index(string viewName)
+        public IActionResult Index()
         {
             return View("Index");
         }
-        public IActionResult Error(string viewName)
+        public IActionResult Error()
         {
             return View("Error");
         }
